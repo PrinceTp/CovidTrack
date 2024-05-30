@@ -10,19 +10,19 @@
 
   <body>
   
-    <h1>Covid19 Tracker</h1>
-    <p>This is a simple web application to track the COVID-19 cases in the world.</p>
+    <h1 style="font-size: 2em; color: green; font-weight: bold;">Covid19 Tracker</h1>
+    <p style="font-size: 1.5em; color: black;">This is a comprehensive web application that provides real-time, global tracking and analysis of the COVID-19 pandemic.</p>
    
     <!-- <div class="jumbotron">
         <h1 class = "display-4" th:text="${totalReportedCases}"></h1>
         <p class="lead">Total Cases</p>
-    </div> -->
+    </div> --> 
 
     <table>
         <tr>
           <th>State</th>
-          <th>Country</th>
-          <th>Total Cases Reported</th>
+          <th style="color: blue;">Country</th>
+          <th style="color: red;">Total Cases Reported</th>
         </tr>
         <tr th:each="locationStat : ${locationStats}">
           <td th:text="${locationStat.state}"></td>
@@ -34,4 +34,8 @@
 
   </body>
 
+</html>
+</html>
+</html>
+</html>
 </html>
